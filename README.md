@@ -1,10 +1,4 @@
 
-# UI5con website
-The source repositiory for the [UI5con](http://openui5.org/ui5con/index.html) event website.
-
-
-Installation
-========================
 ```
 npm install
 ```
@@ -40,3 +34,4 @@ As a result, the `./build` folder will be created under the root folder of the p
 
 Open the `./build/index.html` in a browser to test build results.
 
+=======
