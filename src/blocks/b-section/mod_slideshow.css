@@ -1,0 +1,10 @@
+/* mod_slideshow */
+.b-section.mod_slideshow {
+	background-color: #19181e;
+}
+
+@media (max-width: 390px) {
+	.b-section-h.mod_slideshow {
+		padding: 0;
+	}
+}

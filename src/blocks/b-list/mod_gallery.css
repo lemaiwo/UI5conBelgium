@@ -1,0 +1,17 @@
+.b-list.mod_gallery {
+	justify-content: flex-start;
+	max-width: 1070px;
+	margin: 30px auto 20px;
+}
+
+	.b-list.mod_gallery .b-list__item {
+		width: 20%;
+		position: relative;
+	}
+
+	/* make the item height always equal its width*/
+	.b-list.mod_gallery .b-list__item:before {
+		content: "";
+		display: block;
+		margin-top: 100%;
+	}

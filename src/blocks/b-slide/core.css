@@ -1,0 +1,44 @@
+.b-slide{
+	display: none;
+}
+
+.b-slide__image{
+	width: 100%;
+}
+
+.b-slide__video {
+	width: 100%;
+	position: relative;
+	background-color: red;
+}
+.b-slide__video > * {
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+}
+
+.b-slide__video:before {
+	content: "";
+	display: block;
+	margin-top: 56.25%;
+}
+
+/* Fading animation */
+.b-slide--fade {
+	-webkit-animation-name: fade;
+	-webkit-animation-duration: 1.5s;
+	animation-name: fade;
+	animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+	from {opacity: .4}
+	to {opacity: 1}
+}
+
+@keyframes fade {
+	from {opacity: .4}
+	to {opacity: 1}
+}

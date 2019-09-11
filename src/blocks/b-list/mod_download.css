@@ -1,0 +1,9 @@
+
+.b-list.mod_download {
+	justify-content: center;
+	margin-bottom: 10px;
+}
+
+	.b-list.mod_download .b-list__item a {
+		padding: 10px;
+	}
