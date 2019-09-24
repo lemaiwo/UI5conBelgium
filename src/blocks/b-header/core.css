@@ -3,7 +3,7 @@
 	height: 705px;
 	position: relative;
 	overflow: hidden;
-	background: url('background.jpg') no-repeat 50% 50%;
+	background: url('background_fd.jpg') no-repeat 50% 50%;
 	background-size: cover;
 }
 
@@ -13,7 +13,7 @@
 	left: 0;
 	right: 0;
 	bottom: 0;
-	background-color: rgba(18, 18, 24, .95);
+	background-color: rgba(18, 18, 24, .90);
 	height: 100%;
 	width: 100%;
 	content: '';
