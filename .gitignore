@@ -10,9 +10,6 @@ Thumbs.db
 # npm modules
 /node_modules
 
-# ignore build
-/build
-
 #ignore local js
 *-local.js
 
