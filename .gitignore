@@ -17,4 +17,4 @@ Thumbs.db
 *.log
 
 # ignore build
-/build
+/build/
