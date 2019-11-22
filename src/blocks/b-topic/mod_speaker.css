@@ -7,13 +7,13 @@
 }
 
 .b-topic.mod_speaker .b-topic__image-column {
-	width: 100px;
+	width: 100%;
 	overflow: hidden;
 }
 
 .b-topic.mod_speaker .b-topic__picture {
-	width: 100px;
-	height: 100px;
+	width: 100%;
+	height: 350px;
 	background-repeat: no-repeat;
 	background-size: cover;
 }
