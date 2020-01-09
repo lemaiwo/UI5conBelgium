@@ -1,7 +1,8 @@
 /*
  * Web-site pages
  */
-require('file-loader?name=[name].[ext]!./index.html');
+ require('file-loader?name=[name].[ext]!./index.html');
+ require('file-loader?name=[name].[ext]!./agenda.html');
 
 /*
  * Shows/hides the scroll-to-top button depending on the scroll state

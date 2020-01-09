@@ -8,7 +8,8 @@ const PROJECT_ROOT = path.resolve(__dirname, '..');
 const config = {
     entry: {
         core: path.resolve(PROJECT_ROOT, 'src/default.js'),
-        styles: path.resolve(PROJECT_ROOT, 'src/blocks/index.css')
+        styles: path.resolve(PROJECT_ROOT, 'src/blocks/index.css'),
+        agenda: path.resolve(PROJECT_ROOT, 'src/agenda.js')
     },
 
     output: {
