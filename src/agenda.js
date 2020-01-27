@@ -49,10 +49,10 @@ function extractSessions(oSession, oResult, sType) {
 
 	if (sType === "Track" && sSessionLocation.startsWith("demo")) {
 		switch (sSessionLocation) {
-			case "demo_03":
+			case "demo_02":
 				oResult.track1.push(oNewEntry);
 				break;
-			case "demo_05":
+			case "demo_03":
 				oResult.track2.push(oNewEntry);
 				break;
 		}
